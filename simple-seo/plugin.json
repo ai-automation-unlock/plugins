@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "simple-seo",
+  "version": "0.3.1",
+  "description": "Checks one web page's on-page SEO against a target keyword, then drafts a better title, meta description, H1 and intro for you to review.",
+  "author": {
+    "name": "Tariehk Geter"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Simple SEO",
+        "shortDescription": "Audit and fix on-page SEO",
+        "longDescription": "Simple SEO has two skills. Page Audit checks one web page against a target keyword and lists its on-page SEO problems, most important first. Page Fix drafts a better title, meta description, H1 and intro for you to review. It reads only the page you give it. It doesn't change your site, research competitors or pull data from paid SEO tools.",
+        "developerName": "Tariehk Geter",
+        "category": "Productivity",
+        "capabilities": ["Read"],
+        "defaultPrompt": [
+          "Check the SEO of this page for my target keyword",
+          "Fix the title and meta description on this page for my keyword"
+        ],
+        "brandColor": "#2F6BFF",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}

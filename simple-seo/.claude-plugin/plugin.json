@@ -1,0 +1,10 @@
+{
+  "name": "simple-seo",
+  "displayName": "Simple SEO",
+  "version": "0.3.1",
+  "description": "Checks one web page's on-page SEO against a target keyword, then drafts a better title, meta description, H1 and intro for you to review.",
+  "author": {
+    "name": "Tariehk Geter"
+  },
+  "icon": "./assets/icon.png"
+}
