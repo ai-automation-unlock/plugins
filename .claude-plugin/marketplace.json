@@ -1,0 +1,16 @@
+{
+  "name": "ai-automation-unlock",
+  "owner": {
+    "name": "AI Automation Unlock"
+  },
+  "metadata": {
+    "description": "Plugins for Claude Code and Codex from AI Automation Unlock."
+  },
+  "plugins": [
+    {
+      "name": "simple-seo",
+      "source": "./simple-seo",
+      "description": "Checks one web page's on-page SEO against a target keyword, then drafts a better title, meta description, H1 and intro for you to review."
+    }
+  ]
+}
