@@ -52,7 +52,7 @@ When you write a new title, put the keyword near the start if that reads natural
 
 Include the character count for the new title and meta description.
 
-**Not changed:** List any problems from the report that fall outside these four parts, or write "None."
+**Not changed:** List any problems from the report that fall outside these four parts, and any H1 you left for the user to change to an H2 (see step 3), or write "None."
 
 **Needs your input:** List any facts you need from the user, or write "None."
 

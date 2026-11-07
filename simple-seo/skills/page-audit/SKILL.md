@@ -53,7 +53,7 @@ EOF
 | Priority | Problem | Why it matters | What to change |
 |---|---|---|---|
 
-Sort the table from High to Low. List only problems the user should change.
+Sort the table from High to Low. List only problems the user should change. If there are none, write "No problems found" instead of the table, and say so in the summary.
 
 **Could not check:** List these items, or write "None."
 

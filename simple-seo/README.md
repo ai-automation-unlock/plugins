@@ -2,7 +2,7 @@
 
 Simple SEO checks one web page's on-page SEO against a target keyword, then drafts fixes for you to review. It works in Claude Code and in Codex.
 
-To install it, follow the steps in the README at the top of the repository you got it from.
+To install it, follow the steps at https://github.com/ai-automation-unlock/plugins.
 
 ## What's inside
 

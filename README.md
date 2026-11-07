@@ -111,7 +111,7 @@ This removes the plugin but keeps the AI Automation Unlock store added, so you c
 | A window asks to install the command line developer tools | Click **Install**, wait until it finishes, then run the command again |
 | `claude: command not found` | Install Claude Code from https://code.claude.com/docs/en/setup, then open a new Terminal window |
 | "No such file or directory" for the long Codex path | Make sure the ChatGPT app is in your Applications folder and up to date, or install Codex's command-line tool and use `codex` |
-| "Failed to add marketplace" | Check your internet connection and that you typed `ai-automation-unlock/plugins` exactly, then try again |
+| "Failed to add marketplace," "could not read Username" or "unable to get password" | Check your internet connection and that you typed `ai-automation-unlock/plugins` exactly, then try again. You don't need a GitHub account or password |
 | The plugin is installed but doesn't do anything | Start a new session. In the ChatGPT app, quit with Cmd + Q and reopen it |
 | It says the marketplace is "already" added | That's fine. You added it before, so go on to the install command |
 
