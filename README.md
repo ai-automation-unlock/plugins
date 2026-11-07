@@ -131,4 +131,4 @@ In Codex:
 | `claude: command not found` | Install Claude Code from https://code.claude.com/docs/en/setup |
 | "No such file or directory" for the long Codex path | Make sure the ChatGPT app is in your Applications folder, or install Codex's command-line tool and use `codex` |
 | The plugin is installed but doesn't do anything | Start a new session. In the ChatGPT app, quit with Cmd + Q and reopen it |
-| "Already exists" when you add the marketplace | You added it before, so skip to the install command |
+| It says the marketplace is "already" added | That's fine. You added it before, so go on to the install command |
