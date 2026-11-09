@@ -1,6 +1,6 @@
 ---
 name: quick-wins
-description: Finds the pages on a website that are closest to getting more clicks from Google, using the site's own Google Search Console data through Composio. Use when someone asks for SEO quick wins, low-hanging fruit, which pages to improve first, or pages that almost rank on page one. Not for checking one page against a keyword (use page-audit) or rewriting a page (use page-fix).
+description: Finds the pages on a website that are closest to getting more clicks from Google, using the site's own Google Search Console data through Composio. Use when someone asks for SEO quick wins, low-hanging fruit, which pages to improve first, or pages that almost rank on page one. Not for checking one page against a keyword (use page-audit), rewriting a page (use page-fix) or checking readiness for AI search (use ai-search-check).
 ---
 
 # Quick Wins

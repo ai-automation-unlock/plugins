@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "simple-seo",
-  "version": "0.4.0",
-  "description": "Finds your pages that are closest to more Google clicks, checks one page's on-page SEO against a keyword, then drafts a better title, meta description, H1 and intro for you to review.",
+  "version": "0.5.0",
+  "description": "Finds your pages closest to more Google clicks, checks a page's on-page SEO and its readiness for AI search like ChatGPT and Claude, then drafts fixes for you to review.",
   "author": {
     "name": "Tariehk Geter"
   },
@@ -10,8 +10,8 @@
     "com.openai": {
       "interface": {
         "displayName": "Simple SEO",
-        "shortDescription": "Find quick wins, then audit and fix pages",
-        "longDescription": "Simple SEO has three skills. Quick Wins reads your Google Search Console data through Composio and finds the pages closest to getting more clicks. Page Audit checks one web page against a target keyword and lists its on-page SEO problems, most important first. Page Fix drafts a better title, meta description, H1 and intro for you to review. It never changes your site or Search Console, and it doesn't research competitors or use paid SEO tools.",
+        "shortDescription": "Quick wins, page audits, fixes and AI search checks",
+        "longDescription": "Simple SEO has four skills. Quick Wins reads your Google Search Console data through Composio and finds the pages closest to getting more clicks. Page Audit checks one web page against a target keyword and lists its on-page SEO problems, most important first. Page Fix drafts a better title, meta description, H1 and intro for you to review. AI Search Check shows which AI crawlers can reach a page, checks whether it's easy for AI search to read and quote, and drafts the fixes. It never changes your site or Search Console, and it doesn't research competitors or use paid SEO tools.",
         "developerName": "Tariehk Geter",
         "websiteURL": "https://github.com/ai-automation-unlock/plugins",
         "category": "Productivity",
@@ -19,7 +19,8 @@
         "defaultPrompt": [
           "Find my SEO quick wins",
           "Check the SEO of this page for my target keyword",
-          "Fix the title and meta description on this page for my keyword"
+          "Fix the title and meta description on this page for my keyword",
+          "Is this page ready for AI search like ChatGPT and Claude?"
         ],
         "brandColor": "#2F6BFF",
         "composerIcon": "./assets/icon.png",

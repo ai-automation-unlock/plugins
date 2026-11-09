@@ -1,8 +1,8 @@
 {
   "name": "simple-seo",
   "displayName": "Simple SEO",
-  "version": "0.4.0",
-  "description": "Finds your pages that are closest to more Google clicks, checks one page's on-page SEO against a keyword, then drafts a better title, meta description, H1 and intro for you to review.",
+  "version": "0.5.0",
+  "description": "Finds your pages closest to more Google clicks, checks a page's on-page SEO and its readiness for AI search like ChatGPT and Claude, then drafts fixes for you to review.",
   "author": {
     "name": "Tariehk Geter"
   },

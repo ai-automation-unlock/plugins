@@ -1,6 +1,6 @@
 ---
 name: page-audit
-description: Checks one web page's on-page SEO against a target keyword and returns a prioritized list of problems. Use when someone asks to audit a page, check a page's SEO, or review a page for a keyword. Not for rewriting the page (use page-fix) or finding which pages to work on (use quick-wins).
+description: Checks one web page's on-page SEO against a target keyword and returns a prioritized list of problems. Use when someone asks to audit a page, check a page's SEO, or review a page for a keyword. Not for rewriting the page (use page-fix), finding which pages to work on (use quick-wins) or checking readiness for AI search (use ai-search-check).
 ---
 
 # Page Audit

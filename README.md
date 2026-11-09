@@ -4,7 +4,7 @@ Plugins for Claude Code and Codex from [AI Automation Unlock](https://www.aiauto
 
 | Plugin | What it does |
 |---|---|
-| [Simple SEO](simple-seo/README.md) | Finds the pages on your site that are closest to more Google clicks, checks a page's on-page SEO against a keyword, then drafts a better title, meta description, H1 and intro for you to review |
+| [Simple SEO](simple-seo/README.md) | Finds the pages on your site that are closest to more Google clicks, checks a page's on-page SEO against a keyword, checks whether a page is ready for AI search like ChatGPT and Claude, then drafts fixes for you to review |
 
 These steps are written for a Mac. You don't need a GitHub account.
 
@@ -95,7 +95,15 @@ Find my SEO quick wins
 
 It lists the pages closest to getting more clicks, with the search term to work on for each, and offers to check the first one. Codex asks you to approve each Composio step. That's normal.
 
-In Claude Code, you can also run a skill by name with `/simple-seo:quick-wins`, `/simple-seo:page-audit` or `/simple-seo:page-fix`.
+To check whether a page is ready for AI search, ask:
+
+```text
+Is https://example.com/your-page ready for AI search like ChatGPT and Claude?
+```
+
+It shows which AI tools can reach the page, checks whether the page is easy for them to read and quote, and drafts the fixes. It doesn't need Composio. If it asks for permission to run `python3`, allow it. That's how it checks your page.
+
+In Claude Code, you can also run a skill by name with `/simple-seo:quick-wins`, `/simple-seo:page-audit`, `/simple-seo:page-fix` or `/simple-seo:ai-search-check`.
 
 ## Get updates
 
@@ -148,5 +156,7 @@ This removes the plugin but keeps the AI Automation Unlock store added, so you c
 | Quick Wins says Composio isn't connected | Follow Step 4, then start a new session. In the ChatGPT app, quit with Cmd + Q and reopen it |
 | Quick Wins shows a Google sign-in link | Open it and sign in with the Google account that owns your Search Console, then tell it you're done |
 | Quick Wins says there are no sites or no data | Check that your site is verified in Google Search Console and has had search traffic in the last 3 months |
+| AI Search Check says it couldn't reach the internet | Allow it when it asks for permission. In Codex, approve the request to use the network |
+| AI Search Check says the site refused the check | Some sites block automated checks. Ask it to check the page's HTML, and paste the HTML when it asks |
 
 Questions? Ask in the AI Automation Unlock community, or email hello@aiautomationunlock.com.
