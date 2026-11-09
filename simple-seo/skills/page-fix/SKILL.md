@@ -1,6 +1,6 @@
 ---
 name: page-fix
-description: Rewrites one web page's title, meta description, H1 and intro for a target keyword, as drafts for the user to review. Use when someone asks to fix a page's SEO, rewrite its title or meta description, or fix the problems from a page-audit report. Not for finding problems on a page (use page-audit).
+description: Rewrites one web page's title, meta description, H1 and intro for a target keyword, as drafts for the user to review. Use when someone asks to fix a page's SEO, rewrite its title or meta description, or fix the problems from a page-audit report. Not for finding problems on a page (use page-audit) or finding which pages to work on (use quick-wins).
 ---
 
 # Page Fix

@@ -10,7 +10,7 @@
     {
       "name": "simple-seo",
       "source": "./simple-seo",
-      "description": "Checks one web page's on-page SEO against a target keyword, then drafts a better title, meta description, H1 and intro for you to review."
+      "description": "Finds your pages that are closest to more Google clicks, checks one page's on-page SEO against a keyword, then drafts a better title, meta description, H1 and intro for you to review."
     }
   ]
 }
